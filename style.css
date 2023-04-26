@@ -26,11 +26,30 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0;
+    margin: 20px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 nav ul {
     display: flex;
+    position: fixed;
+    right: 20%;
+    background-color: white;
+    z-index: 5;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin-right: 5px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+.nav-menu a:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 /* -----------------DISPLAYS--------------- */
@@ -43,7 +62,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px 0;
+    margin: 15px 0;
     border-radius: 20px;
     color: rgb(49, 49, 49);
 }
