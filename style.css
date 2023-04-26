@@ -5,13 +5,8 @@
 }
 
 body {
-    margin: 10px 20%;
-
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
+    margin: 0px 20%;
+    font-family: sans-serif;
 }
 
 li {
@@ -19,23 +14,39 @@ li {
     margin: 0 10px;
 }
 
+/* ----------------------NAV-------------------------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
 nav ul {
     display: flex;
 }
 
-header {
+/* -----------------HEADER/SECTION DISPLAYS--------------- */
+
+header,
+section {
     border: 1px solid red;
     text-align: center;
-}
-
-section {
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    border: 1px solid red;
+    margin: 10px 0;
 }
+
 
 section div {
     display: flex;
     justify-content: space-evenly;
+}
+
+/* --------------------HEADER------------------ */
+
+header {
+    justify-content: center;
+    align-content: center ;
 }
