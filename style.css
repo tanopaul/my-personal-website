@@ -37,7 +37,6 @@ nav ul {
 
 
 section {
-    border: 1px solid red;
     text-align: center;
     padding: 3rem 0;
     display: flex;
@@ -142,5 +141,54 @@ header {
 .travel-content li {
     font-size: 2rem;
     margin: 3.5rem 0;
+    font-weight: bold;
+    color: rgb(0, 0, 160);
+}
+
+.travel-content li:hover {
+    cursor: pointer;
+}
+
+
+/* ---------------------WORK-EXPERIENCE------------------- */
+
+#sec-work {
+    background-color: #FFF0EC;
+}
+
+.work-content {
+    margin: 0 20px 20px 40px;
+}
+
+.carousel {
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: black;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+.left-arrow,
+.right-arrow {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+}
+
+.left-arrow {
+    left: 5px;
+}
+
+.right-arrow {
+    right: 5px;
+}
+
+.p-work {
+    margin: 10px 15%;
+    line-height: 35px;
+    font-size: 1.2rem;
     font-weight: bold;
 }
