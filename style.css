@@ -149,6 +149,10 @@ header {
     align-items: center;
 }
 
+.travel-img {
+    object-fit: cover;
+}
+
 .travel-content {
     margin: 0 15px;
     width: 300px;
