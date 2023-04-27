@@ -10,10 +10,10 @@ const googleMap = document.getElementById('google-map');
 let timesClicked = 0;
 
 // TRAVEL PHOTOS
-const guamPhoto = './images/guam.png';
-const thailandPhoto = './images/elephant2.png';
-const peruPhoto = './images/peru2.png';
-const romaniaPhoto = './images/romania.png';
+const guamPhoto = 'images/guam.png';
+const thailandPhoto = 'images/elephant2.png';
+const peruPhoto = 'images/peru2.png';
+const romaniaPhoto = 'images/romania.png';
 //TRAVEL MAPS
 const thailandMaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7962199.098030164!2d96.18420382936631!3d12.985117741387434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d8df747424db1%3A0x9ed72c880757e802!2sThailand!5e0!3m2!1sen!2sus!4v1682535815822!5m2!1sen!2sus";
 const guamMaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220805.2255998216!2d144.65074972425492!3d13.450756284231518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x671f76ff930f24ef%3A0x5571ae91c5b3e5a6!2sGuam!5e0!3m2!1sen!2sus!4v1682444164810!5m2!1sen!2sus";
@@ -21,10 +21,10 @@ const peruMaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8065931.
 const romaniaMaps = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2842619.7164519164!2d22.375712121387586!3d45.91139346064193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff26958976c3%3A0x84ef4f92a804b194!2sRomania!5e0!3m2!1sen!2sus!4v1682536404868!5m2!1sen!2sus";
 
 //WORK PHOTOS
-const amberOxPhoto = './images/amber-ox.png';
-const americanDreamerPhoto = './images/american-dreamer.png';
-const betterPhoto = './images/betterlogo.png';
-const swaggerPhoto = './images/swagger.png';
+const amberOxPhoto = 'images/amber-ox.png';
+const americanDreamerPhoto = 'images/american-dreamer.png';
+const betterPhoto = 'images/betterlogo.png';
+const swaggerPhoto = 'images/swagger.png';
 
 
 
