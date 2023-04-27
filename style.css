@@ -132,7 +132,7 @@ header {
 }
 
 #sec-about div {
-    background-color: #D6E2DB;
+    background-color: #E8E5F6;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -158,7 +158,7 @@ header {
     /* position: relative;
     bottom: 55px;
     margin-left: 20px; */
-    background-color: black;
+    background-color: #FDF6CF;
     border-radius: 20px;
     margin-left: 10px;
     height: 506px;
@@ -169,6 +169,11 @@ header {
 
 #sec-travel {
     background-color: #F3F2F1;
+}
+
+#sec-travel .heading {
+    position: relative;
+    bottom: 20px;
 }
 
 .travel-div {
@@ -186,18 +191,20 @@ header {
     width: 300px;
     height: 450px;
     border-radius: 20px;
-    background-color: #E7EBEE;
+    background-color: #FCE3DA;
 }
 
 .travel-content li {
     font-size: 2rem;
     margin: 3.5rem 0;
     font-weight: bold;
-    color: rgb(0, 0, 160);
+    color: rgb(49, 49, 49);
+    text-decoration: underline;
 }
 
 .travel-content li:hover {
     cursor: pointer;
+    text-decoration: none;
 }
 
 
