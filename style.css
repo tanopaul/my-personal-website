@@ -138,8 +138,8 @@ header {
     flex-direction: column;
     border-radius: 20px;
     padding: 2.7rem 4rem;
-    width: 541px;
-    height: 90%;
+    width: 531px;
+    height: 526px;
 }
 
 .about-heading {
@@ -161,7 +161,7 @@ header {
     background-color: #FDF6CF;
     border-radius: 20px;
     margin-left: 10px;
-    height: 506px;
+    height: 526px;
     width: auto;
 }
 
@@ -173,7 +173,7 @@ header {
 
 #sec-travel .heading {
     position: relative;
-    bottom: 20px;
+    bottom: 25px;
 }
 
 .travel-div {
@@ -211,12 +211,30 @@ header {
 /* ---------------------WORK-EXPERIENCE------------------- */
 
 #sec-work {
-    background-color: #FFF0EC;
+    padding: 0;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-.work-content {
-    margin: 0 20px 20px 40px;
+.div-work {
+    background-color: #E8E5F6;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 2rem 3.5rem;
+    width: 525px;
+    height: 90%;
 }
+
+.div-work .heading {
+    position: relative;
+    bottom: 5px;
+}
+
+/* .work-content {
+    margin: 0 20px 20px 40px;
+} */
 
 .carousel {
     font-weight: bold;
@@ -224,6 +242,7 @@ header {
     background-color: black;
     position: relative;
     border-radius: 20px;
+    margin-right: 30px;
 }
 
 
@@ -245,7 +264,7 @@ header {
 }
 
 .p-work {
-    margin: 10px 15%;
+    margin-top: 20px;
     line-height: 35px;
     font-size: 1.2rem;
     font-weight: bold;
