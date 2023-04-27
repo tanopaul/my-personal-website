@@ -6,9 +6,9 @@
 
 body {
     font-family: sans-serif;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 li {
@@ -17,11 +17,10 @@ li {
 }
 
 .heading {
-    position: relative;
-    bottom: 20px;
     font-size: 2rem;
-    margin-bottom: 50px;
 }
+
+
 
 /* ----------------------NAV-------------------------- */
 nav {
@@ -125,27 +124,45 @@ header {
 /* -----------------------ABOUT--------------------------- */
 
 #sec-about {
-    background-color: #D6E2DB;
-    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0;
 }
 
-/* .about-heading {
+#sec-about div {
+    background-color: #D6E2DB;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 2.7rem 4rem;
+    width: 541px;
+    height: 90%;
+}
+
+.about-heading {
     position: relative;
     bottom: 20px;
     font-size: 2rem;
-} */
+}
 
 .p-about {
-    margin: 10px 10%;
     line-height: 35px;
     font-size: 1.2rem;
+    
 }
 
 .emoji-about {
-    position: relative;
+    /* position: relative;
     bottom: 55px;
-    margin-right: 20px;
-    z-index: 1;
+    margin-left: 20px; */
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 506px;
+    width: auto;
 }
 
 /* --------------------VISITED------------------------ */
